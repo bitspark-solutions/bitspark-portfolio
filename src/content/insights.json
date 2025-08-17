@@ -1,0 +1,7 @@
+{
+  "posts": [
+    { "title": "Designing event-driven ERPs", "excerpt": "When to stream, when to batch.", "date": "2025-01-15", "tags": ["ERP","Events"], "slug": "event-driven-erp", "coverSrc": "/covers/erp.jpg" },
+    { "title": "Payments orchestration playbook", "excerpt": "Going global with control.", "date": "2025-02-02", "tags": ["Payments","Fintech"], "slug": "payments-orchestration", "coverSrc": "/covers/pay.jpg" }
+  ],
+  "whitepaper": { "title": "Scaling core systems", "href": "/insights/scaling-core-systems" }
+}

@@ -1,0 +1,7 @@
+{
+  "models": [
+    { "title": "Discovery", "duration": "2-4 weeks", "description": "Stakeholder alignment, system mapping, risk assessment.", "deliverables": ["Requirements brief", "Architecture roadmap", "Risk matrix"] },
+    { "title": "MVP Build", "duration": "8-12 weeks", "description": "Core features with payment rails and basic integrations.", "deliverables": ["Working MVP", "Test coverage", "Deployment pipeline"] },
+    { "title": "Scale & Optimize", "duration": "Ongoing", "description": "Performance tuning, advanced features, compliance.", "deliverables": ["SLA reports", "Feature releases", "Security audits"] }
+  ]
+}

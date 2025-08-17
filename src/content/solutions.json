@@ -1,0 +1,28 @@
+{
+  "solutions": [
+    {
+      "title": "ERP",
+      "description": "Plan, procure, produce, and account with modular control.",
+      "bullets": ["MRP & BOM", "Financials", "Supplier portals"],
+      "href": "/solutions#erp"
+    },
+    {
+      "title": "CRM",
+      "description": "Unified pipeline, service desk, and customer 360.",
+      "bullets": ["Lead-to-cash", "Journey automation", "Support SLAs"],
+      "href": "/solutions#crm"
+    },
+    {
+      "title": "E‑commerce",
+      "description": "Headless storefronts and OMS built for scale.",
+      "bullets": ["Catalog & pricing", "OMS & returns", "A/B experiments"],
+      "href": "/solutions#ecommerce"
+    },
+    {
+      "title": "Banking & Payments",
+      "description": "Cards, accounts, payouts, and risk controls.",
+      "bullets": ["KYC/KYB flows", "Ledgering", "Payouts & disputes"],
+      "href": "/solutions#banking"
+    }
+  ]
+}

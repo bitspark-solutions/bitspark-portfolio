@@ -1,0 +1,11 @@
+{
+  "values": ["Ownership", "Clarity", "Security by default", "Measured delivery"],
+  "team": [
+    { "roleTitle": "Solutions Architect", "shortBio": "Designs systems from first principles.", "areasOfFocus": ["Architecture", "Integrations"], "avatarSrc": "/avatars/sa-1.png" },
+    { "roleTitle": "Platform Engineer", "shortBio": "Builds resilient, observable platforms.", "areasOfFocus": ["SRE", "K8s"], "avatarSrc": "/avatars/pe-1.png" },
+    { "roleTitle": "Backend Engineer", "shortBio": "Services that scale with confidence.", "areasOfFocus": ["APIs", "Data"], "avatarSrc": "/avatars/be-1.png" },
+    { "roleTitle": "Frontend Engineer", "shortBio": "Delightful, accessible interfaces.", "areasOfFocus": ["Next.js", "MUI"], "avatarSrc": "/avatars/fe-1.png" },
+    { "roleTitle": "QA Lead", "shortBio": "Quality as a culture, not a phase.", "areasOfFocus": ["Automation", "E2E"], "avatarSrc": "/avatars/qa-1.png" },
+    { "roleTitle": "DevOps Engineer", "shortBio": "Deployments you barely notice.", "areasOfFocus": ["CI/CD", "Security"], "avatarSrc": "/avatars/devops-1.png" }
+  ]
+}

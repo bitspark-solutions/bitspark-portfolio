@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "industry": "Garments",
+      "summary": "Unified inventory and order orchestration across 4 regions.",
+      "challenges": ["Stockouts", "Manual transfers", "Delayed reporting"],
+      "solution": ["ERP integration", "Realtime OMS", "Supplier EDI"],
+      "results": [
+        { "metric": "Order latency", "value": "-38%" },
+        { "metric": "Inventory accuracy", "value": "99.2%" }
+      ]
+    },
+    {
+      "industry": "Logistics",
+      "summary": "Optimized fleet routing and warehouse picking.",
+      "challenges": ["Idle miles", "Late deliveries"],
+      "solution": ["Route optimization", "Pick-path planning"],
+      "results": [
+        { "metric": "Cost/route", "value": "-21%" },
+        { "metric": "OTD", "value": "+13%" }
+      ]
+    },
+    {
+      "industry": "Fintech",
+      "summary": "Launched card issuing with risk analytics.",
+      "challenges": ["Chargebacks", "Onboarding friction"],
+      "solution": ["KYC/KYB workflow", "Risk scoring", "Ledgering"],
+      "results": [
+        { "metric": "Approval rate", "value": "+9%" },
+        { "metric": "Chargeback rate", "value": "-27%" }
+      ]
+    }
+  ]
+}

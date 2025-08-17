@@ -1,0 +1,25 @@
+{
+  "industries": [
+    {
+      "name": "Garments",
+      "icon": "/icons/garments.svg",
+      "description": "Plan, produce, and fulfill with real-time visibility across suppliers and channels.",
+      "benefits": ["Inventory precision", "Omnichannel sync", "Compliance automation"],
+      "cta": { "label": "See garment solutions", "href": "/solutions#garments" }
+    },
+    {
+      "name": "Logistics",
+      "icon": "/icons/logistics.svg",
+      "description": "Track, route, and bill with data-driven logistics and warehouse orchestration.",
+      "benefits": ["Fleet visibility", "Route optimization", "Integrated billing"],
+      "cta": { "label": "See logistics solutions", "href": "/solutions#logistics" }
+    },
+    {
+      "name": "Fintech",
+      "icon": "/icons/fintech.svg",
+      "description": "Secure banking and payments experiences with global and local rails.",
+      "benefits": ["PCI-aligned", "Instant settlement", "Risk analytics"],
+      "cta": { "label": "See fintech solutions", "href": "/solutions#fintech" }
+    }
+  ]
+}

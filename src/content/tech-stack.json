@@ -1,0 +1,16 @@
+{
+  "tools": [
+    { "name": "Next.js", "logo": "/logos/next.svg", "description": "App Router, RSC, edge-ready", "categories": ["Frontend"] },
+    { "name": "NestJS", "logo": "/logos/nest.svg", "description": "Structured Node services", "categories": ["Backend"] },
+    { "name": ".NET", "logo": "/logos/dotnet.svg", "description": "High-performance APIs", "categories": ["Backend"] },
+    { "name": "Go", "logo": "/logos/go.svg", "description": "Concurrency-first services", "categories": ["Backend"] },
+    { "name": "Kafka", "logo": "/logos/kafka.svg", "description": "Event streaming", "categories": ["Messaging"] },
+    { "name": "RabbitMQ", "logo": "/logos/rabbitmq.svg", "description": "Task queues", "categories": ["Messaging"] },
+    { "name": "Postgres", "logo": "/logos/postgres.svg", "description": "Relational core", "categories": ["Database"] },
+    { "name": "MongoDB", "logo": "/logos/mongo.svg", "description": "Document store", "categories": ["Database"] },
+    { "name": "Docker & K8s", "logo": "/logos/k8s.svg", "description": "Portable deployments", "categories": ["DevOps"] },
+    { "name": "AWS", "logo": "/logos/aws.svg", "description": "Scalable infrastructure", "categories": ["Cloud"] },
+    { "name": "IaC", "logo": "/logos/iac.svg", "description": "Terraform & GitOps", "categories": ["DevOps"] },
+    { "name": "Datadog", "logo": "/logos/datadog.svg", "description": "Observability", "categories": ["Monitoring"] }
+  ]
+}

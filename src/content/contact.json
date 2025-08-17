@@ -1,0 +1,16 @@
+{
+  "contact": {
+    "email": "hello@bitspark.dev",
+    "calendly": "https://calendly.com/bitspark/discovery"
+  },
+  "demo": {
+    "title": "See our platform in action",
+    "description": "15-minute walkthrough of core capabilities.",
+    "calendlyEmbed": "https://calendly.com/bitspark/demo"
+  },
+  "newsletter": {
+    "title": "Engineering insights",
+    "description": "Monthly deep-dives on architecture and delivery.",
+    "placeholder": "your@company.com"
+  }
+}

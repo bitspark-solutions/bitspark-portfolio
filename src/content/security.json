@@ -1,0 +1,13 @@
+{
+  "practices": [
+    { "title": "Zero trust", "copy": "Identity-first access controls across environments." },
+    { "title": "Encryption", "copy": "TLS in transit, AES-256 at rest." },
+    { "title": "Secrets", "copy": "Rotated, scoped, and audited." },
+    { "title": "Audit", "copy": "Immutable logs and anomaly alerts." }
+  ],
+  "certifications": ["SLA-backed", "Security review ready"],
+  "policies": [
+    { "label": "Privacy", "href": "/privacy" },
+    { "label": "Terms", "href": "/terms" }
+  ]
+}

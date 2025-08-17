@@ -1,0 +1,7 @@
+{
+  "testimonials": [
+    { "quote": "Delivery quality was consistently high with measurable impact.", "role": "COO", "industry": "Garments", "rating": 5 },
+    { "quote": "Integration timeline beat our estimates; risk stayed low.", "role": "CTO", "industry": "Fintech", "rating": 5 },
+    { "quote": "Observability gave us confidence during peak.", "role": "Head of Ops", "industry": "Logistics", "rating": 4 }
+  ]
+}

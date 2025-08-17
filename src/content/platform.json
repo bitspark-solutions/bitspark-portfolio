@@ -1,0 +1,14 @@
+{
+  "modules": [
+    { "name": "Ingestion", "description": "APIs, webhooks, ETL, CDC" },
+    { "name": "Services", "description": "Domain-driven microservices" },
+    { "name": "Integrations", "description": "Payments, banking, ERP/CRM" },
+    { "name": "Analytics", "description": "Dashboards, events, ML hooks" }
+  ],
+  "guarantees": [
+    { "label": "SLA-backed uptime" },
+    { "label": "Autoscaling" },
+    { "label": "Observability" },
+    { "label": "IaC & GitOps" }
+  ]
+}

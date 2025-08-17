@@ -1,0 +1,64 @@
+{
+  "title": "Seamless Integrations",
+  "subtitle": "Connect with leading financial services and payment processors through our robust API ecosystem. We've built integrations that power thousands of transactions daily.",
+  "features": [
+    {
+      "title": "Payment Gateways",
+      "description": "Direct integration with Stripe, Adyen, and regional processors for global payment acceptance."
+    },
+    {
+      "title": "Banking APIs",
+      "description": "Connect to Unit.co, Synapse, and traditional banking partners for account management."
+    },
+    {
+      "title": "Compliance Tools",
+      "description": "Built-in KYC/AML verification through Jumio, Onfido, and compliance providers."
+    },
+    {
+      "title": "Real-time Data",
+      "description": "Live transaction monitoring, fraud detection, and analytics through secure webhooks."
+    }
+  ],
+  "integrations": [
+    {
+      "name": "Stripe",
+      "category": "Payment Processing",
+      "description": "Global payment infrastructure"
+    },
+    {
+      "name": "Adyen",
+      "category": "Payment Processing",
+      "description": "Unified commerce platform"
+    },
+    {
+      "name": "Unit.co",
+      "category": "Banking",
+      "description": "Banking-as-a-Service platform"
+    },
+    {
+      "name": "SSLCommerz",
+      "category": "Payment Processing",
+      "description": "Leading payment gateway in Bangladesh"
+    },
+    {
+      "name": "Plaid",
+      "category": "Banking",
+      "description": "Financial data connectivity"
+    },
+    {
+      "name": "Jumio",
+      "category": "Compliance",
+      "description": "Identity verification and KYC"
+    },
+    {
+      "name": "Onfido",
+      "category": "Compliance",
+      "description": "Digital identity verification"
+    },
+    {
+      "name": "Twilio",
+      "category": "Communication",
+      "description": "SMS and voice verification"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "steps": [
+    { "title": "Discover", "description": "Stakeholder goals, systems map.", "artifactExample": "Brief & roadmap" },
+    { "title": "Define", "description": "Requirements & risk plan.", "artifactExample": "Specs & RACI" },
+    { "title": "Design", "description": "Architecture & UX flows.", "artifactExample": "Diagrams & wireframes" },
+    { "title": "Build", "description": "Iterative sprints & CI/CD.", "artifactExample": "Release notes" },
+    { "title": "Integrate", "description": "Payment rails & partners.", "artifactExample": "Sandbox tests" },
+    { "title": "Operate", "description": "SLOs, monitoring, support.", "artifactExample": "Runbooks" }
+  ]
+}

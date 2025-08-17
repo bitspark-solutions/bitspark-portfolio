@@ -1,0 +1,29 @@
+{
+  "title": "Transforming Finance with Intelligent Solutions",
+  "subtitle": "We build cutting-edge fintech platforms that revolutionize how businesses handle payments, lending, and financial operations. From concept to deployment, we deliver scalable solutions that drive growth.",
+  "ctas": [
+    {
+      "label": "Start Your Project",
+      "href": "#contact",
+      "variant": "contained"
+    },
+    {
+      "label": "View Our Work",
+      "href": "#case-studies",
+      "variant": "outlined"
+    }
+  ],
+  "highlights": [
+    "Payment Processing",
+    "Digital Banking",
+    "Lending Platforms",
+    "Blockchain Integration",
+    "API Development",
+    "Compliance Ready"
+  ],
+  "sparkNetwork": {
+    "nodeCount": 80,
+    "animationSpeed": 0.8,
+    "glowIntensity": 0.9
+  }
+}
