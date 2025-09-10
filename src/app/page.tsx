@@ -86,19 +86,19 @@ export default function HomePage() {
           marginTop: '2rem'
         }}>
           <div style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '2.5rem', fontWeight: 700, color: '#42a5f5' }}>50+</div>
+            <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'white' }}>50+</div>
             <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>Projects Delivered</div>
           </div>
           <div style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '2.5rem', fontWeight: 700, color: '#42a5f5' }}>99.9%</div>
+            <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'white' }}>99.9%</div>
             <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>Client Satisfaction</div>
           </div>
           <div style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '2.5rem', fontWeight: 700, color: '#42a5f5' }}>24/7</div>
+            <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'white' }}>24/7</div>
             <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>Support Available</div>
           </div>
           <div style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '2.5rem', fontWeight: 700, color: '#42a5f5' }}>100%</div>
+            <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'white' }}>100%</div>
             <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>Security Compliance</div>
           </div>
         </div>
