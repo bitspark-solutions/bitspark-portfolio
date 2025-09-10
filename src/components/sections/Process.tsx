@@ -369,7 +369,7 @@ export const Process: React.FC = () => {
                       <Typography
                         variant="h6"
                         component="h4"
-                        sx={{ fontWeight: 600 }}
+                        sx={{ fontWeight: 600, color: 'white' }}
                       >
                         {model.title}
                       </Typography>
@@ -377,7 +377,7 @@ export const Process: React.FC = () => {
 
                     <Typography
                       variant="body1"
-                      sx={{ color: 'text.secondary', mb: 3 }}
+                      sx={{ color: 'rgba(255, 255, 255, 0.9)', mb: 3 }}
                     >
                       {model.description}
                     </Typography>
@@ -385,19 +385,19 @@ export const Process: React.FC = () => {
                     <Box sx={{ mb: 3 }}>
                       <Typography
                         variant="body2"
-                        sx={{ fontWeight: 600, mb: 1, color: 'text.primary' }}
+                        sx={{ fontWeight: 600, mb: 1, color: 'white' }}
                       >
                         Duration: {model.duration}
                       </Typography>
                       <Typography
                         variant="body2"
-                        sx={{ fontWeight: 600, mb: 1, color: 'text.primary' }}
+                        sx={{ fontWeight: 600, mb: 1, color: 'white' }}
                       >
                         Best for: {model.bestFor}
                       </Typography>
                       <Typography
                         variant="body2"
-                        sx={{ fontWeight: 600, mb: 2, color: colors.primary[600] }}
+                        sx={{ fontWeight: 600, mb: 2, color: '#42a5f5' }}
                       >
                         {model.price}
                       </Typography>
@@ -405,7 +405,7 @@ export const Process: React.FC = () => {
 
                     <Typography
                       variant="body2"
-                      sx={{ fontWeight: 600, mb: 1, color: 'text.primary' }}
+                      sx={{ fontWeight: 600, mb: 1, color: 'white' }}
                     >
                       Key Deliverables:
                     </Typography>
@@ -418,7 +418,7 @@ export const Process: React.FC = () => {
                                 width: 4,
                                 height: 4,
                                 borderRadius: '50%',
-                                background: colors.primary[500],
+                                background: 'white',
                               }}
                             />
                           </ListItemIcon>
@@ -426,7 +426,7 @@ export const Process: React.FC = () => {
                             primary={deliverable}
                             primaryTypographyProps={{
                               variant: 'body2',
-                              color: 'text.secondary',
+                              sx: { color: 'rgba(255, 255, 255, 0.9)' },
                             }}
                           />
                         </ListItem>
