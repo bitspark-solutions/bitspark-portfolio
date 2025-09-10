@@ -234,13 +234,13 @@ export const Testimonials: React.FC = () => {
                         }}
                       />
                       <Box>
-                        <Typography variant="h6" component="h3" sx={{ fontWeight: 600 }}>
+                        <Typography variant="h6" component="h3" sx={{ fontWeight: 600, color: 'white' }}>
                           {testimonial.name}
                         </Typography>
                         <Typography variant="subtitle2" sx={{ color: '#42a5f5' }}>
                           {testimonial.role}
                         </Typography>
-                        <Typography variant="body2" sx={{ opacity: 0.8 }}>
+                        <Typography variant="body2" sx={{ opacity: 0.8, color: 'rgba(255, 255, 255, 0.9)' }}>
                           {testimonial.company}
                         </Typography>
                       </Box>
@@ -251,7 +251,7 @@ export const Testimonials: React.FC = () => {
                       <Rating value={testimonial.rating} readOnly size="small" />
                     </Box>
 
-                    <Typography variant="body1" sx={{ mb: 3, opacity: 0.9, lineHeight: 1.6, fontStyle: 'italic' }}>
+                    <Typography variant="body1" sx={{ mb: 3, opacity: 0.9, lineHeight: 1.6, fontStyle: 'italic', color: 'rgba(255, 255, 255, 0.9)' }}>
                       &ldquo;{testimonial.quote}&rdquo;
                     </Typography>
 
@@ -266,10 +266,10 @@ export const Testimonials: React.FC = () => {
                       <Typography variant="subtitle2" sx={{ color: '#42a5f5', mb: 1 }}>
                         {testimonial.metrics.label}
                       </Typography>
-                      <Typography variant="h5" sx={{ fontWeight: 700, mb: 1 }}>
+                      <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, color: 'white' }}>
                         {testimonial.metrics.value}
                       </Typography>
-                      <Typography variant="body2" sx={{ opacity: 0.8 }}>
+                      <Typography variant="body2" sx={{ opacity: 0.8, color: 'rgba(255, 255, 255, 0.9)' }}>
                         {testimonial.metrics.improvement}
                       </Typography>
                     </Box>
