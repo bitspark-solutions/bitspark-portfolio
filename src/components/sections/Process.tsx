@@ -336,7 +336,7 @@ export const Process: React.FC = () => {
               textAlign: 'center',
               fontWeight: 600,
               mb: 6,
-              color: 'text.primary',
+              color: 'white',
             }}
           >
             Engagement Models
