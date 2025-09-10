@@ -103,10 +103,7 @@ export const OpenSource: React.FC = () => {
               sx={{
                 mb: 2,
                 fontWeight: 700,
-                background: 'linear-gradient(45deg, #42a5f5 30%, #90caf9 90%)',
-                backgroundClip: 'text',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent'
+                color: 'white'
               }}
             >
               Open Source & Community
