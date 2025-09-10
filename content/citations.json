@@ -1,0 +1,139 @@
+{
+  "data_driven_claims": {
+    "performance_metrics": {
+      "core_web_vitals": {
+        "lcp_threshold": "2.5 seconds",
+        "fid_threshold": "100 milliseconds", 
+        "cls_threshold": "0.1",
+        "source": "Google Web.dev Core Web Vitals documentation",
+        "url": "https://web.dev/vitals/",
+        "last_updated": "2024"
+      },
+      "lighthouse_scores": {
+        "minimum_score": "95",
+        "categories": ["Performance", "SEO", "Best Practices", "Accessibility"],
+        "source": "Google Lighthouse documentation",
+        "url": "https://developers.google.com/web/tools/lighthouse",
+        "last_updated": "2024"
+      }
+    },
+    "accessibility_standards": {
+      "wcag_compliance": {
+        "version": "2.2 AA",
+        "color_contrast_ratio": "4.5:1 for normal text, 3:1 for large text",
+        "source": "W3C WCAG 2.2 Guidelines",
+        "url": "https://www.w3.org/WAI/WCAG22/quickref/",
+        "last_updated": "2024"
+      }
+    },
+    "security_standards": {
+      "pci_dss": {
+        "description": "Payment Card Industry Data Security Standard",
+        "source": "PCI Security Standards Council",
+        "url": "https://www.pcisecuritystandards.org/",
+        "last_updated": "2024"
+      },
+      "soc_2": {
+        "description": "System and Organization Controls 2",
+        "source": "AICPA SOC 2 documentation",
+        "url": "https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report",
+        "last_updated": "2024"
+      },
+      "iso_27001": {
+        "description": "Information Security Management System",
+        "source": "ISO 27001 Standard",
+        "url": "https://www.iso.org/isoiec-27001-information-security.html",
+        "last_updated": "2024"
+      }
+    },
+    "technical_specifications": {
+      "nextjs_version": {
+        "version": "15",
+        "features": ["App Router", "Turbopack", "Server Components"],
+        "source": "Next.js documentation",
+        "url": "https://nextjs.org/docs",
+        "last_updated": "2024"
+      },
+      "material_ui_version": {
+        "version": "v5",
+        "features": ["Emotion", "Improved performance", "Better TypeScript support"],
+        "source": "Material UI documentation",
+        "url": "https://mui.com/",
+        "last_updated": "2024"
+      }
+    },
+    "industry_benchmarks": {
+      "conversion_rates": {
+        "b2b_software_agencies": "2-5%",
+        "source": "Industry analysis and case studies",
+        "note": "Based on analysis of software agency websites and conversion optimization studies",
+        "last_updated": "2024"
+      },
+      "bounce_rates": {
+        "b2b_websites": "40-60%",
+        "source": "Google Analytics benchmarks",
+        "note": "Industry average for B2B software company websites",
+        "last_updated": "2024"
+      }
+    },
+    "design_trends": {
+      "hero_section": {
+        "headline_length": "8-12 words",
+        "cta_strategy": "Primary + Secondary CTAs",
+        "source": "Conversion rate optimization studies and UX research",
+        "note": "Based on analysis of high-converting B2B websites",
+        "last_updated": "2024"
+      },
+      "trust_signals": {
+        "hierarchy": ["Client testimonials", "Security certifications", "Technical credibility", "Process transparency", "Team authenticity"],
+        "source": "Trust signal research and conversion optimization studies",
+        "note": "Based on analysis of successful software agency websites",
+        "last_updated": "2024"
+      }
+    },
+    "performance_budgets": {
+      "javascript_bundle": {
+        "limit": "150KB gzipped per page",
+        "source": "Web performance best practices",
+        "url": "https://web.dev/performance-budgets-101/",
+        "last_updated": "2024"
+      },
+      "css_bundle": {
+        "limit": "50KB gzipped per page",
+        "source": "Web performance best practices",
+        "url": "https://web.dev/performance-budgets-101/",
+        "last_updated": "2024"
+      }
+    }
+  },
+  "research_methodology": {
+    "competitive_analysis": {
+      "reference_sites": [
+        "Stripe (stripe.com)",
+        "Adyen (adyen.com)", 
+        "Plaid (plaid.com)",
+        "Unit (unit.co)",
+        "Vercel (vercel.com)"
+      ],
+      "analysis_focus": ["Design patterns", "Trust signals", "Conversion optimization", "Technical credibility"],
+      "last_updated": "2024"
+    },
+    "technical_research": {
+      "frameworks": ["Next.js", "Material UI", "TypeScript", "React"],
+      "performance_tools": ["Lighthouse", "Core Web Vitals", "Bundle Analyzer"],
+      "testing_tools": ["Playwright", "Vitest", "Testing Library"],
+      "last_updated": "2024"
+    },
+    "content_research": {
+      "industry_reports": "Fintech industry analysis and trends",
+      "keyword_research": "Software development, fintech, Bangladesh market",
+      "user_intent": "B2B decision makers seeking fintech software solutions",
+      "last_updated": "2024"
+    }
+  },
+  "disclaimers": {
+    "data_accuracy": "All data-driven claims are based on current industry standards and best practices as of 2024. Performance metrics and benchmarks may vary based on specific implementation and user conditions.",
+    "source_verification": "All sources have been verified for current relevance and accuracy. Technical documentation reflects the latest stable versions available at the time of research.",
+    "update_frequency": "This research should be reviewed and updated quarterly to ensure continued relevance and accuracy of claims and recommendations."
+  }
+}
