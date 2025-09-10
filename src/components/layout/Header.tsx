@@ -44,7 +44,7 @@ export const Header: React.FC = () => {
   const drawer = (
     <Box sx={{ width: 250 }}>
       <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', p: 2 }}>
-        <Typography variant="h6" component="div" sx={{ fontWeight: 700 }}>
+        <Typography variant="h6" component="div" sx={{ fontWeight: 700, color: 'text.primary' }}>
           Bitspark Solutions
         </Typography>
         <IconButton onClick={handleDrawerToggle}>
@@ -58,7 +58,7 @@ export const Header: React.FC = () => {
             onClick={() => scrollToSection(item.href)}
             sx={{ cursor: 'pointer', '&:hover': { backgroundColor: 'rgba(0, 0, 0, 0.04)' } }}
           >
-            <ListItemText primary={item.label} />
+            <ListItemText primary={item.label} primaryTypographyProps={{ color: 'text.primary' }} />
           </ListItem>
         ))}
         <ListItem>

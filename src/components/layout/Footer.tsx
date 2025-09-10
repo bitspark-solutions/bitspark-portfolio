@@ -81,10 +81,7 @@ export const Footer: React.FC = () => {
                 sx={{
                   fontWeight: 700,
                   mb: 2,
-                  background: 'linear-gradient(45deg, #ffffff 30%, #e3f2fd 90%)',
-                  backgroundClip: 'text',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
+                  color: 'white',
                 }}
               >
                 Bitspark Solutions
