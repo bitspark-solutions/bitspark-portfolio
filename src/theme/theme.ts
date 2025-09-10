@@ -30,7 +30,7 @@ export const colors = {
   gradient: {
     hero: 'linear-gradient(135deg, #2196f3 0%, #212121 100%)', // Blue to Black
     buttonPrimary: 'linear-gradient(45deg, #42a5f5 30%, #2196f3 90%)',
-    buttonSecondary: 'linear-gradient(45deg, #bdbdbd 30%, #757575 90%)',
+    buttonSecondary: 'linear-gradient(45deg, #2196f3 30%, #1976d2 90%)',
   },
 };
 
@@ -43,12 +43,12 @@ const theme = createTheme({
       main: colors.secondary[900],
     },
     background: {
-      default: colors.secondary[900],
-      paper: colors.secondary[800],
+      default: colors.white,
+      paper: colors.white,
     },
     text: {
-      primary: colors.white,
-      secondary: colors.primary[50],
+      primary: colors.secondary[900],
+      secondary: colors.secondary[700],
     },
   },
   typography: {

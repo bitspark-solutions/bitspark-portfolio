@@ -81,7 +81,7 @@ export const Services: React.FC = () => {
               sx={{
                 mb: 3,
                 fontWeight: 700,
-                background: 'linear-gradient(45deg, #2196f3 30%, #42a5f5 90%)',
+                background: 'linear-gradient(45deg, #1976d2 30%, #0d47a1 90%)',
                 backgroundClip: 'text',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',

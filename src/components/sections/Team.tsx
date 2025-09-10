@@ -129,7 +129,7 @@ export const Team: React.FC = () => {
               sx={{
                 mb: 2,
                 fontWeight: 700,
-                background: 'linear-gradient(45deg, #2196f3 30%, #212121 90%)',
+                background: 'linear-gradient(45deg, #1976d2 30%, #0d47a1 90%)',
                 backgroundClip: 'text',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent'
