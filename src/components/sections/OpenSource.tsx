@@ -154,11 +154,11 @@ export const OpenSource: React.FC = () => {
                   <CardContent sx={{ p: 3 }}>
                     <Box display="flex" alignItems="center" gap={2} mb={2}>
                       <GitHub sx={{ color: '#42a5f5' }} />
-                      <Typography variant="h6" component="h4" sx={{ fontWeight: 600 }}>
+                      <Typography variant="h6" component="h4" sx={{ fontWeight: 600, color: 'white' }}>
                         {repo.name}
                       </Typography>
                     </Box>
-                    <Typography variant="body2" sx={{ mb: 3, opacity: 0.8, lineHeight: 1.6 }}>
+                    <Typography variant="body2" sx={{ mb: 3, opacity: 0.8, lineHeight: 1.6, color: 'rgba(255, 255, 255, 0.9)' }}>
                       {repo.description}
                     </Typography>
                     <Box display="flex" flexWrap="wrap" gap={1} mb={3}>
@@ -178,15 +178,15 @@ export const OpenSource: React.FC = () => {
                     <Box display="flex" alignItems="center" gap={3} mb={3}>
                       <Box display="flex" alignItems="center" gap={1}>
                         <Star sx={{ fontSize: 16, color: '#42a5f5' }} />
-                        <Typography variant="body2">{repo.stars}</Typography>
+                        <Typography variant="body2" sx={{ color: 'white' }}>{repo.stars}</Typography>
                       </Box>
                       <Box display="flex" alignItems="center" gap={1}>
                         <ForkRight sx={{ fontSize: 16, color: '#42a5f5' }} />
-                        <Typography variant="body2">{repo.forks}</Typography>
+                        <Typography variant="body2" sx={{ color: 'white' }}>{repo.forks}</Typography>
                       </Box>
                       <Box display="flex" alignItems="center" gap={1}>
                         <Visibility sx={{ fontSize: 16, color: '#42a5f5' }} />
-                        <Typography variant="body2">{repo.watchers}</Typography>
+                        <Typography variant="body2" sx={{ color: 'white' }}>{repo.watchers}</Typography>
                       </Box>
                     </Box>
                     <Button
@@ -246,10 +246,10 @@ export const OpenSource: React.FC = () => {
                     >
                       <Code sx={{ fontSize: 30 }} />
                     </Avatar>
-                    <Typography variant="h6" component="h4" sx={{ mb: 1, fontWeight: 600 }}>
+                    <Typography variant="h6" component="h4" sx={{ mb: 1, fontWeight: 600, color: 'white' }}>
                       {contribution.project}
                     </Typography>
-                    <Typography variant="body2" sx={{ mb: 2, opacity: 0.8 }}>
+                    <Typography variant="body2" sx={{ mb: 2, opacity: 0.8, color: 'rgba(255, 255, 255, 0.9)' }}>
                       {contribution.description}
                     </Typography>
                     <Chip
@@ -261,7 +261,7 @@ export const OpenSource: React.FC = () => {
                         mb: 1
                       }}
                     />
-                    <Typography variant="caption" display="block" sx={{ opacity: 0.6 }}>
+                    <Typography variant="caption" display="block" sx={{ opacity: 0.6, color: 'rgba(255, 255, 255, 0.8)' }}>
                       Impact: {contribution.impact}
                     </Typography>
                   </CardContent>
@@ -309,18 +309,18 @@ export const OpenSource: React.FC = () => {
                         <School sx={{ fontSize: 20 }} />
                       </Avatar>
                       <Box>
-                        <Typography variant="subtitle2" sx={{ fontWeight: 600 }}>
+                        <Typography variant="subtitle2" sx={{ fontWeight: 600, color: 'white' }}>
                           {talk.event}
                         </Typography>
-                        <Typography variant="caption" sx={{ opacity: 0.6 }}>
+                        <Typography variant="caption" sx={{ opacity: 0.6, color: 'rgba(255, 255, 255, 0.8)' }}>
                           {talk.date}
                         </Typography>
                       </Box>
                     </Box>
-                    <Typography variant="h6" component="h4" sx={{ mb: 2, fontWeight: 600 }}>
+                    <Typography variant="h6" component="h4" sx={{ mb: 2, fontWeight: 600, color: 'white' }}>
                       {talk.title}
                     </Typography>
-                    <Typography variant="body2" sx={{ mb: 2, opacity: 0.8 }}>
+                    <Typography variant="body2" sx={{ mb: 2, opacity: 0.8, color: 'rgba(255, 255, 255, 0.9)' }}>
                       {talk.location}
                     </Typography>
                     <Chip
