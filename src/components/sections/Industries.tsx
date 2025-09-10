@@ -309,13 +309,13 @@ export const Industries: React.FC = () => {
                         <Typography
                           variant="h6"
                           component="h4"
-                          sx={{ fontWeight: 600, mb: 1 }}
+                          sx={{ fontWeight: 600, mb: 1, color: 'white' }}
                         >
                           {feature.title}
                         </Typography>
                         <Typography
                           variant="body2"
-                          sx={{ color: 'text.secondary' }}
+                          sx={{ color: 'rgba(255, 255, 255, 0.9)' }}
                         >
                           {feature.description}
                         </Typography>
@@ -331,7 +331,7 @@ export const Industries: React.FC = () => {
                                 width: 6,
                                 height: 6,
                                 borderRadius: '50%',
-                                background: colors.primary[500],
+                                background: 'white',
                               }}
                             />
                           </ListItemIcon>
@@ -339,7 +339,7 @@ export const Industries: React.FC = () => {
                             primary={item}
                             primaryTypographyProps={{
                               variant: 'body2',
-                              color: 'text.secondary',
+                              sx: { color: 'rgba(255, 255, 255, 0.9)' },
                             }}
                           />
                         </ListItem>
