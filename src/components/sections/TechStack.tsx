@@ -183,7 +183,7 @@ export const TechStack: React.FC = () => {
               sx={{
                 maxWidth: '700px',
                 mx: 'auto',
-                color: 'text.secondary',
+                color: 'rgba(255, 255, 255, 0.9)',
                 lineHeight: 1.6,
               }}
             >
@@ -262,13 +262,13 @@ export const TechStack: React.FC = () => {
                           <Box>
                             <Typography
                               variant="body2"
-                              sx={{ fontWeight: 600, color: 'text.primary' }}
+                              sx={{ fontWeight: 600, color: 'white' }}
                             >
                               {tech.name}
                             </Typography>
                             <Typography
                               variant="caption"
-                              sx={{ color: 'text.secondary' }}
+                              sx={{ color: 'rgba(255, 255, 255, 0.8)' }}
                             >
                               {tech.category}
                             </Typography>

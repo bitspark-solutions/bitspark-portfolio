@@ -200,7 +200,7 @@ export const Process: React.FC = () => {
               sx={{
                 maxWidth: '700px',
                 mx: 'auto',
-                color: 'text.secondary',
+                color: 'rgba(255, 255, 255, 0.9)',
                 lineHeight: 1.6,
               }}
             >
