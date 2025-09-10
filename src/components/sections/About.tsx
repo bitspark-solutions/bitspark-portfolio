@@ -286,7 +286,7 @@ export const About: React.FC = () => {
                   fontWeight: 600,
                   mb: 3,
                   textAlign: 'center',
-                  color: 'text.primary',
+                  color: 'white',
                 }}
               >
                 What We Don&apos;t Do
@@ -296,7 +296,7 @@ export const About: React.FC = () => {
                 sx={{
                   mb: 3,
                   textAlign: 'center',
-                  color: 'text.secondary',
+                  color: 'rgba(255, 255, 255, 0.9)',
                 }}
               >
                 We believe in transparency and setting clear expectations. Here&apos;s what you won&apos;t get from us:
@@ -305,8 +305,8 @@ export const About: React.FC = () => {
                 {whatWeDontDo.map((item, index) => (
                   <Grid size={{ xs: 12, sm: 6 }} key={index}>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                      <CheckCircle sx={{ color: colors.primary[500], fontSize: 20 }} />
-                      <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                      <CheckCircle sx={{ color: 'white', fontSize: 20 }} />
+                      <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.9)' }}>
                         {item}
                       </Typography>
                     </Box>
